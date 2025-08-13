@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/page.jsx", "app/layout.jsx", "lib/utils.js", "app/dashboard/(components)/DashboardLayout.jsx", "app/dashboard/(components)/DashboardOverview.jsx", "app/dashboard/applications/(components)/ApplicationTracker.jsx", "app/dashboard/jobs/(components)/jobApplication.tsx", "app/dashboard/jobs/(components)/JobDetail.jsx", "app/dashboard/jobs/(components)/JobListings.jsx", "app/dashboard/profile/(Components)/UserProfile.jsx"],
+  "exclude": ["node_modules"]
+}
